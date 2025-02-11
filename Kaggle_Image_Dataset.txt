@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("preritbhagat/stress-non-stress-images")
+
+print("Path to dataset files:", path)
